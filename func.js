@@ -56,66 +56,66 @@ function initHistory(boot = false) {
             "objData": [],
             "wallData": [{
                 "thick": 20,
-                "start": { "x": 540, "y": 194 },
-                "end": { "x": 540, "y": 734 },
+                "start": {"x": 540, "y": 194},
+                "end": {"x": 540, "y": 734},
                 "type": "normal",
                 "parent": 3,
                 "child": 1,
                 "angle": 1.5707963267948966,
-                "equations": { "up": { "A": "v", "B": 550 }, "down": { "A": "v", "B": 530 }, "base": { "A": "v", "B": 540 } },
-                "coords": [{ "x": 550, "y": 204 }, { "x": 530, "y": 184 }, { "x": 530, "y": 744 }, { "x": 550, "y": 724 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "v", "B": 550}, "down": {"A": "v", "B": 530}, "base": {"A": "v", "B": 540}},
+                "coords": [{"x": 550, "y": 204}, {"x": 530, "y": 184}, {"x": 530, "y": 744}, {"x": 550, "y": 724}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 540, "y": 734 },
-                "end": { "x": 1080, "y": 734 },
+                "start": {"x": 540, "y": 734},
+                "end": {"x": 1080, "y": 734},
                 "type": "normal",
                 "parent": 0,
                 "child": 2,
                 "angle": 0,
-                "equations": { "up": { "A": "h", "B": 724 }, "down": { "A": "h", "B": 744 }, "base": { "A": "h", "B": 734 } },
-                "coords": [{ "x": 550, "y": 724 }, { "x": 530, "y": 744 }, { "x": 1090, "y": 744 }, { "x": 1070, "y": 724 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "h", "B": 724}, "down": {"A": "h", "B": 744}, "base": {"A": "h", "B": 734}},
+                "coords": [{"x": 550, "y": 724}, {"x": 530, "y": 744}, {"x": 1090, "y": 744}, {"x": 1070, "y": 724}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1080, "y": 734 },
-                "end": { "x": 1080, "y": 194 },
+                "start": {"x": 1080, "y": 734},
+                "end": {"x": 1080, "y": 194},
                 "type": "normal",
                 "parent": 1,
                 "child": 3,
                 "angle": -1.5707963267948966,
                 "equations": {
-                    "up": { "A": "v", "B": 1070 },
-                    "down": { "A": "v", "B": 1090 },
-                    "base": { "A": "v", "B": 1080 }
+                    "up": {"A": "v", "B": 1070},
+                    "down": {"A": "v", "B": 1090},
+                    "base": {"A": "v", "B": 1080}
                 },
-                "coords": [{ "x": 1070, "y": 724 }, { "x": 1090, "y": 744 }, { "x": 1090, "y": 184 }, { "x": 1070, "y": 204 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "coords": [{"x": 1070, "y": 724}, {"x": 1090, "y": 744}, {"x": 1090, "y": 184}, {"x": 1070, "y": 204}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1080, "y": 194 },
-                "end": { "x": 540, "y": 194 },
+                "start": {"x": 1080, "y": 194},
+                "end": {"x": 540, "y": 194},
                 "type": "normal",
                 "parent": 2,
                 "child": 0,
                 "angle": 3.141592653589793,
-                "equations": { "up": { "A": "h", "B": 204 }, "down": { "A": "h", "B": 184 }, "base": { "A": "h", "B": 194 } },
-                "coords": [{ "x": 1070, "y": 204 }, { "x": 1090, "y": 184 }, { "x": 530, "y": 184 }, { "x": 550, "y": 204 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "h", "B": 204}, "down": {"A": "h", "B": 184}, "base": {"A": "h", "B": 194}},
+                "coords": [{"x": 1070, "y": 204}, {"x": 1090, "y": 184}, {"x": 530, "y": 184}, {"x": 550, "y": 204}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }],
             "roomData": [{
-                "coords": [{ "x": 540, "y": 734 }, { "x": 1080, "y": 734 }, { "x": 1080, "y": 194 }, {
+                "coords": [{"x": 540, "y": 734}, {"x": 1080, "y": 734}, {"x": 1080, "y": 194}, {
                     "x": 540,
                     "y": 194
-                }, { "x": 540, "y": 734 }],
-                "coordsOutside": [{ "x": 1090, "y": 744 }, { "x": 1090, "y": 184 }, { "x": 530, "y": 184 }, {
+                }, {"x": 540, "y": 734}],
+                "coordsOutside": [{"x": 1090, "y": 744}, {"x": 1090, "y": 184}, {"x": 530, "y": 184}, {
                     "x": 530,
                     "y": 744
-                }, { "x": 1090, "y": 744 }],
-                "coordsInside": [{ "x": 1070, "y": 724 }, { "x": 1070, "y": 204 }, { "x": 550, "y": 204 }, {
+                }, {"x": 1090, "y": 744}],
+                "coordsInside": [{"x": 1070, "y": 724}, {"x": 1070, "y": 204}, {"x": 550, "y": 204}, {
                     "x": 550,
                     "y": 724
-                }, { "x": 1070, "y": 724 }],
+                }, {"x": 1070, "y": 724}],
                 "inside": [],
                 "way": ["0", "2", "3", "1", "0"],
                 "area": 270400,
@@ -137,92 +137,92 @@ function initHistory(boot = false) {
             "objData": [],
             "wallData": [{
                 "thick": 20,
-                "start": { "x": 447, "y": 458 },
-                "end": { "x": 447, "y": 744 },
+                "start": {"x": 447, "y": 458},
+                "end": {"x": 447, "y": 744},
                 "type": "normal",
                 "parent": 5,
                 "child": 1,
                 "angle": 1.5707963267948966,
-                "equations": { "up": { "A": "v", "B": 457 }, "down": { "A": "v", "B": 437 }, "base": { "A": "v", "B": 447 } },
-                "coords": [{ "x": 457, "y": 468 }, { "x": 437, "y": 448 }, { "x": 437, "y": 754 }, { "x": 457, "y": 734 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "v", "B": 457}, "down": {"A": "v", "B": 437}, "base": {"A": "v", "B": 447}},
+                "coords": [{"x": 457, "y": 468}, {"x": 437, "y": 448}, {"x": 437, "y": 754}, {"x": 457, "y": 734}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 447, "y": 744 },
-                "end": { "x": 1347, "y": 744 },
+                "start": {"x": 447, "y": 744},
+                "end": {"x": 1347, "y": 744},
                 "type": "normal",
                 "parent": 0,
                 "child": 2,
                 "angle": 0,
-                "equations": { "up": { "A": "h", "B": 734 }, "down": { "A": "h", "B": 754 }, "base": { "A": "h", "B": 744 } },
-                "coords": [{ "x": 457, "y": 734 }, { "x": 437, "y": 754 }, { "x": 1357, "y": 754 }, { "x": 1337, "y": 734 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "h", "B": 734}, "down": {"A": "h", "B": 754}, "base": {"A": "h", "B": 744}},
+                "coords": [{"x": 457, "y": 734}, {"x": 437, "y": 754}, {"x": 1357, "y": 754}, {"x": 1337, "y": 734}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1347, "y": 744 },
-                "end": { "x": 1347, "y": 144 },
+                "start": {"x": 1347, "y": 744},
+                "end": {"x": 1347, "y": 144},
                 "type": "normal",
                 "parent": 1,
                 "child": 3,
                 "angle": -1.5707963267948966,
                 "equations": {
-                    "up": { "A": "v", "B": 1337 },
-                    "down": { "A": "v", "B": 1357 },
-                    "base": { "A": "v", "B": 1347 }
+                    "up": {"A": "v", "B": 1337},
+                    "down": {"A": "v", "B": 1357},
+                    "base": {"A": "v", "B": 1347}
                 },
-                "coords": [{ "x": 1337, "y": 734 }, { "x": 1357, "y": 754 }, { "x": 1357, "y": 134 }, { "x": 1337, "y": 154 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "coords": [{"x": 1337, "y": 734}, {"x": 1357, "y": 754}, {"x": 1357, "y": 134}, {"x": 1337, "y": 154}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1347, "y": 144 },
-                "end": { "x": 1020, "y": 144 },
+                "start": {"x": 1347, "y": 144},
+                "end": {"x": 1020, "y": 144},
                 "type": "normal",
                 "parent": 2,
                 "child": 4,
                 "angle": 3.141592653589793,
-                "equations": { "up": { "A": "h", "B": 154 }, "down": { "A": "h", "B": 134 }, "base": { "A": "h", "B": 144 } },
-                "coords": [{ "x": 1337, "y": 154 }, { "x": 1357, "y": 134 }, { "x": 1010, "y": 134 }, { "x": 1030, "y": 154 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "h", "B": 154}, "down": {"A": "h", "B": 134}, "base": {"A": "h", "B": 144}},
+                "coords": [{"x": 1337, "y": 154}, {"x": 1357, "y": 134}, {"x": 1010, "y": 134}, {"x": 1030, "y": 154}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1020, "y": 144 },
-                "end": { "x": 1020, "y": 458 },
+                "start": {"x": 1020, "y": 144},
+                "end": {"x": 1020, "y": 458},
                 "type": "normal",
                 "parent": 3,
                 "child": 5,
                 "angle": 1.5707963267948966,
                 "equations": {
-                    "up": { "A": "v", "B": 1030 },
-                    "down": { "A": "v", "B": 1010 },
-                    "base": { "A": "v", "B": 1020 }
+                    "up": {"A": "v", "B": 1030},
+                    "down": {"A": "v", "B": 1010},
+                    "base": {"A": "v", "B": 1020}
                 },
-                "coords": [{ "x": 1030, "y": 154 }, { "x": 1010, "y": 134 }, { "x": 1010, "y": 448 }, { "x": 1030, "y": 468 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "coords": [{"x": 1030, "y": 154}, {"x": 1010, "y": 134}, {"x": 1010, "y": 448}, {"x": 1030, "y": 468}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }, {
                 "thick": 20,
-                "start": { "x": 1020, "y": 458 },
-                "end": { "x": 447, "y": 458 },
+                "start": {"x": 1020, "y": 458},
+                "end": {"x": 447, "y": 458},
                 "type": "normal",
                 "parent": 4,
                 "child": 0,
                 "angle": 3.141592653589793,
-                "equations": { "up": { "A": "h", "B": 468 }, "down": { "A": "h", "B": 448 }, "base": { "A": "h", "B": 458 } },
-                "coords": [{ "x": 1030, "y": 468 }, { "x": 1010, "y": 448 }, { "x": 437, "y": 448 }, { "x": 457, "y": 468 }],
-                "graph": { "0": {}, "context": {}, "length": 1 }
+                "equations": {"up": {"A": "h", "B": 468}, "down": {"A": "h", "B": 448}, "base": {"A": "h", "B": 458}},
+                "coords": [{"x": 1030, "y": 468}, {"x": 1010, "y": 448}, {"x": 437, "y": 448}, {"x": 457, "y": 468}],
+                "graph": {"0": {}, "context": {}, "length": 1}
             }],
             "roomData": [{
-                "coords": [{ "x": 447, "y": 744 }, { "x": 1347, "y": 744 }, { "x": 1347, "y": 144 }, {
+                "coords": [{"x": 447, "y": 744}, {"x": 1347, "y": 744}, {"x": 1347, "y": 144}, {
                     "x": 1020,
                     "y": 144
-                }, { "x": 1020, "y": 458 }, { "x": 447, "y": 458 }, { "x": 447, "y": 744 }],
-                "coordsOutside": [{ "x": 1357, "y": 754 }, { "x": 1357, "y": 134 }, { "x": 1010, "y": 134 }, {
+                }, {"x": 1020, "y": 458}, {"x": 447, "y": 458}, {"x": 447, "y": 744}],
+                "coordsOutside": [{"x": 1357, "y": 754}, {"x": 1357, "y": 134}, {"x": 1010, "y": 134}, {
                     "x": 1010,
                     "y": 448
-                }, { "x": 437, "y": 448 }, { "x": 437, "y": 754 }, { "x": 1357, "y": 754 }],
-                "coordsInside": [{ "x": 1337, "y": 734 }, { "x": 1337, "y": 154 }, { "x": 1030, "y": 154 }, {
+                }, {"x": 437, "y": 448}, {"x": 437, "y": 754}, {"x": 1357, "y": 754}],
+                "coordsInside": [{"x": 1337, "y": 734}, {"x": 1337, "y": 154}, {"x": 1030, "y": 154}, {
                     "x": 1030,
                     "y": 468
-                }, { "x": 457, "y": 468 }, { "x": 457, "y": 734 }, { "x": 1337, "y": 734 }],
+                }, {"x": 457, "y": 468}, {"x": 457, "y": 734}, {"x": 1337, "y": 734}],
                 "inside": [],
                 "way": ["0", "2", "3", "4", "5", "1", "0"],
                 "area": 330478,
@@ -240,28 +240,28 @@ function initHistory(boot = false) {
     }
 }
 
-document.getElementById('redo').addEventListener("click", function () {
-    if (HISTORY.index < HISTORY.length) {
-        load(HISTORY.index);
-        HISTORY.index++;
-        $('#undo').removeClass('disabled');
-        if (HISTORY.index === HISTORY.length) {
-            $('#redo').addClass('disabled');
-        }
-    }
-});
-
-document.getElementById('undo').addEventListener("click", function () {
-    if (HISTORY.index > 0) {
-        $('#undo').removeClass('disabled');
-        if (HISTORY.index - 1 > 0) {
-            HISTORY.index--;
-            load(HISTORY.index - 1);
-            $('#redo').removeClass('disabled');
-        }
-    }
-    if (HISTORY.index === 1) $('#undo').addClass('disabled');
-});
+// document.getElementById('redo').addEventListener("click", function () {
+//     if (HISTORY.index < HISTORY.length) {
+//         load(HISTORY.index);
+//         HISTORY.index++;
+//         $('#undo').removeClass('disabled');
+//         if (HISTORY.index === HISTORY.length) {
+//             $('#redo').addClass('disabled');
+//         }
+//     }
+// });
+//
+// document.getElementById('undo').addEventListener("click", function () {
+//     if (HISTORY.index > 0) {
+//         $('#undo').removeClass('disabled');
+//         if (HISTORY.index - 1 > 0) {
+//             HISTORY.index--;
+//             load(HISTORY.index - 1);
+//             $('#redo').removeClass('disabled');
+//         }
+//     }
+//     if (HISTORY.index === 1) $('#undo').addClass('disabled');
+// });
 
 function save(boot = false) {
     if (boot) localStorage.removeItem('history');
@@ -274,7 +274,7 @@ function save(boot = false) {
             WALLS[k].parent = WALLS.indexOf(WALLS[k].parent);
         }
     }
-    if (JSON.stringify({ objData: OBJDATA, wallData: WALLS, roomData: ROOM }) === HISTORY[HISTORY.length - 1]) {
+    if (JSON.stringify({objData: OBJDATA, wallData: WALLS, roomData: ROOM}) === HISTORY[HISTORY.length - 1]) {
         for (let k in WALLS) {
             if (WALLS[k].child != null) {
                 WALLS[k].child = WALLS[WALLS[k].child];
@@ -290,7 +290,7 @@ function save(boot = false) {
         HISTORY.splice(HISTORY.index, (HISTORY.length - HISTORY.index));
         $('#redo').addClass('disabled');
     }
-    HISTORY.push(JSON.stringify({ objData: OBJDATA, wallData: WALLS, roomData: ROOM }));
+    HISTORY.push(JSON.stringify({objData: OBJDATA, wallData: WALLS, roomData: ROOM}));
     localStorage.setItem('history', JSON.stringify(HISTORY));
     HISTORY.index++;
     if (HISTORY.index > 1) $('#undo').removeClass('disabled');
@@ -605,7 +605,6 @@ document.getElementById('report_mode').addEventListener("click", function () {
     $('#reportRooms').show(1000);
 
 
-
 });
 
 document.getElementById('wallWidth').addEventListener("input", function () {
@@ -721,10 +720,12 @@ window.addEventListener("load", function () {
         document.getElementById('zoomBox').style.transform = "translateX(-165px)";
     });
     if (!localStorage.getItem('history')) {
-        $('#recover').html("<p>Select a plan type.");
+        //$('#recover').html("<p>Select a plan type.");
+        initHistory('newSquare');
     }
-    const myModal = new bootstrap.Modal($('#myModal'))
-    myModal.show();
+    // const myModal = new bootstrap.Modal($('#myModal'))
+    // myModal.show();
+    initHistory('recovery');
 });
 
 document.getElementById('sizePolice').addEventListener("input", function () {
@@ -955,7 +956,7 @@ for (let k = 0; k < roomColorBtn.length; k++) {
     roomColorBtn[k].addEventListener("click", function () {
         let data = this.getAttribute('data-type');
         $('#roomBackground').val(data);
-        binder.attr({ 'fill': 'url(#' + data + ')' });
+        binder.attr({'fill': 'url(#' + data + ')'});
     });
 }
 
@@ -1000,7 +1001,7 @@ function matrixCalc(el, message = false) {
 }
 
 function matrixXY(m, x, y) {
-    return { x: x * m.a + y * m.c + m.e, y: x * m.b + y * m.d + m.f };
+    return {x: x * m.a + y * m.c + m.e, y: x * m.b + y * m.d + m.f};
 }
 
 function realBboxShow(coords) {
@@ -1020,11 +1021,11 @@ function limitObj(equation, size, coords, message = false) {
     let Bq = equation.B;
     let pos1, pos2;
     if (Aq === 'v') {
-        pos1 = { x: Px, y: Py - size / 2 };
-        pos2 = { x: Px, y: Py + size / 2 };
+        pos1 = {x: Px, y: Py - size / 2};
+        pos2 = {x: Px, y: Py + size / 2};
     } else if (Aq === 'h') {
-        pos1 = { x: Px - size / 2, y: Py };
-        pos2 = { x: Px + size / 2, y: Py };
+        pos1 = {x: Px - size / 2, y: Py};
+        pos2 = {x: Px + size / 2, y: Py};
     } else {
         let A = 1 + Aq * Aq;
         let B = (-2 * Px) + (2 * Aq * Bq) + (-2 * Py * Aq);
@@ -1032,8 +1033,8 @@ function limitObj(equation, size, coords, message = false) {
         let Delta = (B * B) - (4 * A * C);
         let posX1 = (-B - (Math.sqrt(Delta))) / (2 * A);
         let posX2 = (-B + (Math.sqrt(Delta))) / (2 * A);
-        pos1 = { x: posX1, y: (Aq * posX1) + Bq };
-        pos2 = { x: posX2, y: (Aq * posX2) + Bq };
+        pos1 = {x: posX1, y: (Aq * posX1) + Bq};
+        pos2 = {x: posX2, y: (Aq * posX2) + Bq};
     }
     return [pos1, pos2];
 }
@@ -1262,7 +1263,7 @@ function showVertex() {
 
 function showJunction() {
     for (let i = 0; i < junction.length; i++) {
-        debugPoint({ x: junction[i].values[0], y: junction[i].values[1] }, i);
+        debugPoint({x: junction[i].values[0], y: junction[i].values[1]}, i);
 
     }
 }
@@ -1298,8 +1299,8 @@ function inWallRib(wall, option = false) {
     let angleTextValue = wall.angle * (180 / Math.PI);
     let objWall = editor.objFromWall(wall); // LIST OBJ ON EDGE
     if (objWall.length == 0) return
-    ribMaster[0].push({ wall: wall, crossObj: false, side: 'up', coords: wall.coords[0], distance: 0 });
-    ribMaster[1].push({ wall: wall, crossObj: false, side: 'down', coords: wall.coords[1], distance: 0 });
+    ribMaster[0].push({wall: wall, crossObj: false, side: 'up', coords: wall.coords[0], distance: 0});
+    ribMaster[1].push({wall: wall, crossObj: false, side: 'down', coords: wall.coords[1], distance: 0});
     let objTarget = null
     for (let ob in objWall) {
         objTarget = objWall[ob];
@@ -1346,9 +1347,9 @@ function inWallRib(wall, option = false) {
         });
     }
     distance = qSVG.measure(wall.coords[0], wall.coords[3]) / meter;
-    ribMaster[0].push({ wall: objTarget, crossObj: false, side: 'up', coords: wall.coords[3], distance: distance });
+    ribMaster[0].push({wall: objTarget, crossObj: false, side: 'up', coords: wall.coords[3], distance: distance});
     distance = qSVG.measure(wall.coords[1], wall.coords[2]) / meter;
-    ribMaster[1].push({ wall: objTarget, crossObj: false, side: 'down', coords: wall.coords[2], distance: distance });
+    ribMaster[1].push({wall: objTarget, crossObj: false, side: 'down', coords: wall.coords[2], distance: distance});
     ribMaster[0].sort(function (a, b) {
         return (a.distance - b.distance).toFixed(2);
     });
@@ -1673,13 +1674,10 @@ $('#select_mode').click(function () {
 
 $('#line_mode').click(function () {
     linElement.css('cursor', 'crosshair');
-    $('#boxinfo').html('Creation of wall(s)');
+    $('.selected').removeClass('unselected');
+    $('#line_mode').addClass('selected');
     multi = 0;
     action = 0;
-    // snap = calcul_snap(event, grid_snap);
-    //
-    // pox = snap.x;
-    // poy = snap.y;
     fonc_button('line_mode');
 });
 
@@ -1762,8 +1760,8 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
     construc.params.move = false;
     construc.params.resize = false;
     construc.params.resizeLimit = {};
-    construc.params.resizeLimit.width = { min: false, max: false };
-    construc.params.resizeLimit.height = { min: false, max: false };
+    construc.params.resizeLimit.width = {min: false, max: false};
+    construc.params.resizeLimit.height = {min: false, max: false};
     construc.params.rotate = false;
 
     if (classObj === 'socle') {
@@ -1784,7 +1782,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 (-sizeObj - thickObj / 2) + "  A" + sizeObj + "," + sizeObj + " 0 0,1 " + sizeObj / 2 + "," + (-thickObj / 2), "none", colorWall,
                 '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 40, max: 120 };
+            construc.params.resizeLimit.width = {min: 40, max: 120};
         }
         if (typeObj === 'double') {
 
@@ -1800,7 +1798,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 (-sizeObj / 2 - thickObj / 2) + "  A" + sizeObj / 2 + "," + sizeObj / 2 + " 0 0,0 0," + (-thickObj / 2), "none", colorWall,
                 '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 40, max: 160 };
+            construc.params.resizeLimit.width = {min: 40, max: 160};
         }
         if (typeObj === 'pocket') {
             pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + (-(thickObj / 2) - 4) + " L " + (-sizeObj / 2) + "," +
@@ -1816,7 +1814,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 (-thickObj / 2 - 5) + " L " + (+sizeObj / 2) + "," + (-thickObj / 2 - 5) + " L " + (+sizeObj / 2) +
                 "," + (-thickObj / 2) + " Z", "url(#hatch)", "#494646", '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 60, max: 200 };
+            construc.params.resizeLimit.width = {min: 60, max: 200};
         }
         if (typeObj === 'aperture') {
             pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + (-thickObj / 2) + " L " + (-sizeObj / 2) + "," + thickObj / 2 +
@@ -1832,7 +1830,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 " L " + (sizeObj / 2) + "," + thickObj / 2 + " L " + (sizeObj / 2) + "," + (-(thickObj / 2)) + " Z", "none", "#494646",
                 'none');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 40, max: 500 };
+            construc.params.resizeLimit.width = {min: 40, max: 500};
         }
         if (typeObj === 'fix') {
             pushToConstruc(construc, "M " + (-sizeObj / 2) + ",-2 L " + (-sizeObj / 2) + ",2 L " +
@@ -1841,7 +1839,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
             pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + (-thickObj / 2) + " L " + (-sizeObj / 2) + "," + thickObj / 2 +
                 " M " + sizeObj / 2 + "," + thickObj / 2 + " L " + sizeObj / 2 + "," + (-thickObj / 2), "none", "#ccc", '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 30, max: 300 };
+            construc.params.resizeLimit.width = {min: 30, max: 300};
         }
         if (typeObj === 'flap') {
 
@@ -1852,10 +1850,10 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 " M " + sizeObj / 2 + "," + thickObj / 2 + " L " + sizeObj / 2 + "," + (-thickObj / 2), "none", "#ccc", '');
 
             pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + (-thickObj / 2) + " L " + ((-sizeObj / 2) +
-                ((sizeObj) * 0.866)) + "," + ((-sizeObj / 2) - (thickObj / 2)) + "  A" + sizeObj + "," +
+                    ((sizeObj) * 0.866)) + "," + ((-sizeObj / 2) - (thickObj / 2)) + "  A" + sizeObj + "," +
                 sizeObj + " 0 0,1 " + sizeObj / 2 + "," + (-thickObj / 2), "none", colorWall, '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 20, max: 100 };
+            construc.params.resizeLimit.width = {min: 20, max: 100};
         }
         if (typeObj === 'twin') {
 
@@ -1869,14 +1867,14 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 " M " + sizeObj / 2 + "," + thickObj / 2 + " L " + sizeObj / 2 + "," + (-thickObj / 2), "none", "#000", '');
 
             pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + (-thickObj / 2) + " L " + ((-sizeObj / 2) +
-                ((sizeObj / 2) * 0.866)) + "," + (-sizeObj / 4 - thickObj / 2) + "  A" +
+                    ((sizeObj / 2) * 0.866)) + "," + (-sizeObj / 4 - thickObj / 2) + "  A" +
                 sizeObj / 2 + "," + sizeObj / 2 + " 0 0,1 0," + (-thickObj / 2), "none", colorWall, '');
 
             pushToConstruc(construc, "M " + (sizeObj / 2) + "," + (-thickObj / 2) + " L " + ((sizeObj / 2) +
-                ((-sizeObj / 2) * 0.866)) + "," + (-sizeObj / 4 - thickObj / 2) + "  A" +
+                    ((-sizeObj / 2) * 0.866)) + "," + (-sizeObj / 4 - thickObj / 2) + "  A" +
                 sizeObj / 2 + "," + sizeObj / 2 + " 0 0,0 0," + (-thickObj / 2), "none", colorWall, '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 40, max: 200 };
+            construc.params.resizeLimit.width = {min: 40, max: 200};
         }
         if (typeObj === 'bay') {
 
@@ -1887,7 +1885,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
 
             pushToConstruc(construc, "M -2,1 L -2,3 L " + sizeObj / 2 + ",3 L " + sizeObj / 2 + ",1 L -1,1 L -1,-1 L -2,-1 Z", "#ccc", "none", '');
             construc.params.resize = true;
-            construc.params.resizeLimit.width = { min: 60, max: 300 };
+            construc.params.resizeLimit.width = {min: 60, max: 300};
         }
     }
 
@@ -1942,8 +1940,8 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
                 pushToConstruc(construc, "M " + (-sizeObj / 2) + "," + ((-thickObj / 2) + (i * heightStep)) + " L " + (sizeObj / 2) + "," +
                     ((-thickObj / 2) + (i * heightStep)), "none", "#000", 'none');
             }
-            construc.params.resizeLimit.width = { min: 40, max: 200 };
-            construc.params.resizeLimit.height = { min: 40, max: 400 };
+            construc.params.resizeLimit.width = {min: 40, max: 200};
+            construc.params.resizeLimit.height = {min: 40, max: 400};
         }
 
     }
@@ -2064,7 +2062,7 @@ function carpentryCalc(classObj, typeObj, sizeObj, thickObj, dividerObj = 10) {
             pushToConstruc(construc, "m -20,-20 l 40,0 l0,40 l-40,0 Z", "#fff", "#333", '');
 
             construc.push({
-                'text': "@",
+                'text': "📡",
                 'x': '0',
                 'y': '4',
                 'fill': "#333333",

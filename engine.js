@@ -1422,7 +1422,7 @@ function _MOUSEUP(event) {
     if (OBJDATA[OBJDATA.length - 1].class == 'furniture') targetBox = 'boxFurniture';
     $('#' + targetBox).append(OBJDATA[OBJDATA.length - 1].graph);
     delete binder;
-    $('#boxinfo').html('Object added');
+    //$('#boxinfo').html('Object added');
     fonc_button('select_mode');
     save();
   }
@@ -1452,7 +1452,7 @@ function _MOUSEUP(event) {
       delete labelMeasure;
       cross.remove();
       delete cross;
-      $('#boxinfo').html('Measure added');
+      //$('#boxinfo').html('Measure added');
       fonc_button('select_mode');
       save();
     }
@@ -1490,7 +1490,7 @@ function _MOUSEUP(event) {
     $('#panel').hide(100);
     $('#roomTools').show('300')
     $('#lin').css('cursor', 'default');
-    $('#boxinfo').html('Config. the room');
+    //$('#boxinfo').html('Config. the room');
 
     mode = 'edit_room_mode';
     save();
@@ -1519,7 +1519,7 @@ function _MOUSEUP(event) {
 
   if (mode == 'door_mode') {
     if (typeof (binder) == "undefined") {
-      $('#boxinfo').html('The plan currently contains no wall.');
+      //$('#boxinfo').html('The plan currently contains no wall.');
       fonc_button('select_mode');
       return false;
     }
@@ -1527,7 +1527,7 @@ function _MOUSEUP(event) {
     binder.graph.remove();
     $('#boxcarpentry').append(OBJDATA[OBJDATA.length - 1].graph);
     delete binder;
-    $('#boxinfo').html('Element added');
+    //$('#boxinfo').html('Element added');
     fonc_button('select_mode');
     save();
   }
@@ -1554,8 +1554,8 @@ function _MOUSEUP(event) {
         action = 1;
       }
       else action = 0;
-      $('#boxinfo').html('Wall added <span style=\'font-size:0.6em\'>Moy. ' + (qSVG.measure(
-        { x: pox, y: poy }, { x: x, y: y }) / 60).toFixed(2) + ' m</span>');
+      // $('#boxinfo').html('Wall added <span style=\'font-size:0.6em\'>Moy. ' + (qSVG.measure(
+      //   { x: pox, y: poy }, { x: x, y: y }) / 60).toFixed(2) + ' m</span>');
       $('#line_construc').remove(); // DEL LINE CONSTRUC HELP TO VIEW NEW SEG PATH
       lengthTemp.remove();
       delete lengthTemp;
@@ -1569,7 +1569,7 @@ function _MOUSEUP(event) {
     else {
       action = 0;
       construc = 0;
-      $('#boxinfo').html('Select mode');
+      //$('#boxinfo').html('Select mode');
       fonc_button('select_mode');
       if (typeof (binder) != 'undefined') {
         binder.remove();
@@ -1605,7 +1605,7 @@ function _MOUSEUP(event) {
         if (found) {
           $('#panel').hide(100);
           var objWall = editor.objFromWall(wallBind);
-          $('#boxinfo').html('Modify a wall<br/><span style="font-size:0.7em;color:#de9b43">This wall can\'t become a separation (contains doors or windows) !</span>');
+          //$('#boxinfo').html('Modify a wall<br/><span style="font-size:0.7em;color:#de9b43">This wall can\'t become a separation (contains doors or windows) !</span>');
           if (objWall.length > 0) $('#separate').hide();
           else if (binder.wall.type == 'separate') {
             $('#separate').hide();
@@ -1620,7 +1620,7 @@ function _MOUSEUP(event) {
             $('#rangeThick').show();
             $('#recombine').hide();
             document.getElementById('titleWallTools').textContent = "Modify the wall";
-            $('#boxinfo').html('Modify the wall');
+            //$('#boxinfo').html('Modify the wall');
           }
           $('#wallTools').show(200);
           document.getElementById('wallWidth').setAttribute('min', 7);
@@ -1642,7 +1642,7 @@ function _MOUSEUP(event) {
           $('#panel').hide(100);
           $('#objTools').show('200')
           $('#lin').css('cursor', 'default');
-          $('#boxinfo').html('Config. the door/window');
+          //$('#boxinfo').html('Config. the door/window');
           console.log('obj ??')
           document.getElementById('doorWindowWidth').setAttribute('min', binder.obj.params.resizeLimit.width.min);
           document.getElementById('doorWindowWidth').setAttribute('max', binder.obj.params.resizeLimit.width.max);
@@ -1667,7 +1667,7 @@ function _MOUSEUP(event) {
           // TO REMOVE MEASURE ON PLAN
           objTarget.graph.remove();
           OBJDATA.splice(OBJDATA.indexOf(objTarget), 1);
-          $('#boxinfo').html('Measure deleted !');
+          //$('#boxinfo').html('Measure deleted !');
         }
         if (moveObj < 1 && objTarget.params.move) {
           if (!objTarget.params.resize) $('#objBoundingBoxScale').hide();
@@ -1678,7 +1678,7 @@ function _MOUSEUP(event) {
           console.log(objTarget.params.resizeLimit.width.min)
           $('#objBoundingBox').show('200')
           $('#lin').css('cursor', 'default');
-          $('#boxinfo').html('Modify the object');
+          //$('#boxinfo').html('Modify the object');
           console.log(objTarget)
           document.getElementById('bboxWidth').setAttribute('min', objTarget.params.resizeLimit.width.min);
           document.getElementById('bboxWidth').setAttribute('max', objTarget.params.resizeLimit.width.max);
