@@ -1102,8 +1102,8 @@ function _MOUSEMOVE(event) {
   if (mode == 'select_mode' && drag == 'on') {
     snap = calcul_snap(event, grid_snap);
     $('#lin').css('cursor', 'move');
-    distX = (snap.xMouse - pox) * factor;
-    distY = (snap.yMouse - poy) * factor;
+    distX = (snap.xMouse - pox)// * factor;
+    distY = (snap.yMouse - poy)// * factor;
     // pox = event.pageX;
     // poy = event.pageY;
     zoom_maker('zoomdrag', distX, distY);
