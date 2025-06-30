@@ -1106,6 +1106,8 @@ function _MOUSEMOVE(event) {
     distY = (snap.yMouse - poy) * factor;
     // pox = event.pageX;
     // poy = event.pageY;
+    pox = snap.xMouse - distX
+    poy = snap.yMouse - distY
     zoom_maker('zoomdrag', distX, distY);
   }
 } // END MOUSEMOVE
