@@ -739,7 +739,7 @@ var qSVG = {
                   coords.push({x: vertex[tempSurface[rr]].x, y: vertex[tempSurface[rr]].y});
                 }
                 // WARNING -> FAKE
-                if (realCoords.inside.length != realCoords.outside) {
+                if (realCoords.inside.length != realCoords.outside.length) {
                   polygons.push({way: tempSurface, coords: coords, coordsOutside: realCoords.outside, coordsInside: realCoords.inside, area: realArea, outsideArea: outsideArea, realArea: bestArea});
                 }
                 else { // REAL INSIDE POLYGONE -> ROOM
